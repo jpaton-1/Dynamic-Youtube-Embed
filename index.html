@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duke Chapel Livestreams</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .column {
+      width: 48%;
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      margin-top: 10px;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Duke Chapel Livestreams</h1>
+  <div class="container">
+    <div class="column" id="upcoming-livestreams">
+      <h2>Upcoming Livestreams</h2>
+    </div>
+    <div class="column" id="past-livestreams">
+      <h2>Past Livestreams</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
