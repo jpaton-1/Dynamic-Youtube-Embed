@@ -60,8 +60,8 @@ This project displays Duke Chapel’s **upcoming** and **past livestreams** dire
   <div id="video-container" class="video-container"></div>
 
   <script>
-    const API_KEY = 'AIzaSyBuoIV7cSxilFJd2DBJ-fNF-mO_HEJfjhM';
-    const CHANNEL_ID = 'UC6PnY_FQmr-0bFN1aK22hBg';
+    const API_KEY = 'Your API Key';
+    const CHANNEL_ID = 'Your Channel ID';
 
     function isCacheValid(timestamp) {
       const oneDay = 24 * 60 * 60 * 1000;
